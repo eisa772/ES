@@ -120,7 +120,28 @@ hr{
 }
 .Aboutmeimage{
 width: 50%;
-justify-content: right;
+justify-content: center;
+
+}
+.mySkills{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    
+}
+.mySkills ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    color: aqua;
+    font-size: 2rem;
+}
+.mySkills li{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
 }
 .Works{
     background-image: url(background.svg);
@@ -250,6 +271,11 @@ footer{
     .Aboutname,
     .aboutTitle {
       font-size: 2rem;
+    }
+    .mySkills ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
     .light {
         width: 60px;}
